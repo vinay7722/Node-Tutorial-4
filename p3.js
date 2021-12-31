@@ -3,17 +3,17 @@ var sum = (a,b)=>{
     return a+b;
 }
 
-var mul = (a,b) =>{
+var multiplication = (a,b) =>{
     return a*b; 
 }
 
-var sub = (a,b) => {
+var subtraction = (a,b) => {
     return a-b;
 }
 
 console.log("this is index.js file")
 
-module.exports = {sum,mul,sub};
+module.exports = {sum,multiplication,subtraction};
 
 
 

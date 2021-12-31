@@ -12,9 +12,8 @@ var sub = (a,b) => {
 }
 
 console.log("this is index.js file")
-module.exports.sum = sum;
-module.exports.mul = mul;
-module.exports.sub = sub;
+
+module.exports = {sum,mul,sub};
 
 
 
